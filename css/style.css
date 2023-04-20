@@ -3,11 +3,9 @@ body{
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  /*soporte varios navegadores*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
 }
 
 #container {
@@ -69,4 +67,21 @@ p{
   color: white;
   width: 19px;
   height: auto;
+}
+@media only screen and (max-width: 820px){
+  body{
+    display: flex;
+  }
+
+  #container{
+    background: none;
+    width: 90%;
+    color: black;
+    padding: 15px;
+  }
+}
+
+
+@media only screen and (min-width: 768px){
+
 }
