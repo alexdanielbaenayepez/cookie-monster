@@ -102,5 +102,33 @@ p{
 
 
 @media only screen and (max-width: 480px){
+  html, body{
+    display: flex;
+    font-size: 18px;
+    backdrop-filter: blur(4px);
+  }
+
+  #container{
+    background: none;
+    width: 75%;
+    color: black;
+    padding: 15px;
+  }
+
+  /*Ajustar el texto con calc */
+  p{
+    font-size: 1em;
+
+    color: floralwhite;
+  }
+
+  #redes{
+    /*display grid*/
+    background: none;
+  }
+
+  .hecho p{
+    display: none;
+  }
 
 }
