@@ -68,9 +68,11 @@ p{
   width: 19px;
   height: auto;
 }
-@media only screen and (max-width: 820px){
-  body{
+@media only screen and (max-width: 768px){
+  html, body{
     display: flex;
+    font-size: 18px;
+    backdrop-filter: blur(4px);
   }
 
   #container{
@@ -79,9 +81,26 @@ p{
     color: black;
     padding: 15px;
   }
+
+  /*Ajustar el texto con calc */
+  p{
+    font-size: 1em;
+
+    color: floralwhite;
+  }
+
+  #redes{
+    /*display grid*/
+    background: none;
+  }
+
+  .hecho p{
+    display: none;
+  }
+
 }
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 480px){
 
 }
