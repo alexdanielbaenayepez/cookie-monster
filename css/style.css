@@ -10,7 +10,7 @@ body{
 
 #container {
   background: black;
-  width: 420px;
+  width: 550px;
   color: white;
   padding: 15px;
   border-radius: 10px;
@@ -27,6 +27,7 @@ h2{
   color:black;
   border-radius: 5px;
   padding: 5px;
+  font-size: 2.5em;
 }
 
 a {
@@ -36,7 +37,7 @@ a {
 
 p{
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 22px;
 }
 
 #redes{
@@ -106,12 +107,12 @@ p{
     display: flex;
     font-size: 18px;
     backdrop-filter: blur(4px);
-    overflow: hidden;
+    overflow: scroll;
   }
 
   #container{
     background: none;
-    width: 75%;
+    width: 90%;
     color: black;
     padding: 15px;
   }
@@ -119,8 +120,10 @@ p{
   /*Ajustar el texto con calc */
   p{
     font-size: 1em;
-
     color: floralwhite;
+    float: right;
+    align-items: center;
+    word-break:break-all;
   }
 
   #redes{
