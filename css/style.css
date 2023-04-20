@@ -108,13 +108,20 @@ p{
     font-size: 18px;
     backdrop-filter: blur(4px);
     overflow: scroll;
+    margin: 0;
+    padding: 0;
   }
 
   #container{
     background: none;
-    width: 90%;
+    width: 300px;
     color: black;
-    padding: 15px;
+  }
+
+  h1{
+    }
+
+  h2{
   }
 
   /*Ajustar el texto con calc */
@@ -133,6 +140,10 @@ p{
 
   .hecho p{
     display: none;
+  }
+
+  footer{
+    width: 300px;
   }
 
 }
