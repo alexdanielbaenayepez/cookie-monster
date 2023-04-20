@@ -106,6 +106,7 @@ p{
     display: flex;
     font-size: 18px;
     backdrop-filter: blur(4px);
+    overflow: hidden;
   }
 
   #container{
