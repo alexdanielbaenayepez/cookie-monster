@@ -1,3 +1,10 @@
+
+:root{
+ --main-color: floralwhite;
+  --bacground-color: black;
+  --link-color: #85C1E9;
+}
+
 body{
   background: url('../images/cookie-monster.jpg');
   background-position: center;
@@ -9,9 +16,9 @@ body{
 }
 
 #container {
-  background: black;
+  background: var(--bacground-color);
   width: 420px;
-  color: white;
+  color: var(--main-color);
   padding: 15px;
   border-radius: 10px;
 }
@@ -23,14 +30,14 @@ h1{
 
 h2{
   font-family: 'Roboto', sans-serif;
-  background: #85C1E9;
-  color:black;
+  background: var(--link-color);
+  color: var(--bacground-color);
   border-radius: 5px;
   padding: 5px;
 }
 
 a {
-  color: #85C1E9;
+  color: var(--link-color);
   text-decoration: none;
 }
 
@@ -41,7 +48,7 @@ p{
 
 #redes{
   text-align: center;
-  background: black;
+  background: var(--bacground-color);
 }
 
 #redes a {
@@ -52,7 +59,7 @@ p{
   text-align: center;
   font-size: 16px;
   font-family: 'Dancing Script', cursive;
-  color: white;
+  color: var(--main-color);
   width: 450px;
   border-radius: 50px;
   background: rgb(2,0,36);
@@ -64,7 +71,7 @@ p{
 }
 
 #love{
-  color: white;
+  color: var(--main-color);
   width: 19px;
   height: auto;
 }
@@ -78,15 +85,14 @@ p{
   #container{
     background: none;
     width: 90%;
-    color: black;
+    color: var(--bacground-color);
     padding: 15px;
   }
 
   /*Ajustar el texto con calc */
   p{
     font-size: 1em;
-
-    color: floralwhite;
+    color: var(--main-color);
   }
 
   #redes{
@@ -114,7 +120,7 @@ p{
 
   #container{
     background: none;
-    color: black;
+    color: var(--bacground-color);
     margin: 0 auto 0 auto;
   }
 
@@ -129,7 +135,7 @@ p{
   /*Ajustar el texto con calc */
   p{
     font-size: 1em;
-    color: floralwhite;
+    color: var(--main-color);
     float: right;
     align-items: center;
   }
