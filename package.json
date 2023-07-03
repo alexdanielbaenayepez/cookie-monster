@@ -1,7 +1,7 @@
 {
   "name": "cookie-monster",
   "version": "1.0.0",
-  "description": "HEADING 1: Cookie Monster HEADING 2: Chocolate Chip Evangelist",
+  "description": "Cookie Monster Chocolate Chip Evangelist",
   "main": "index.js",
   "scripts": {
     "dev": "lite-server",
